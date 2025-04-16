@@ -8,7 +8,7 @@ function Home() {
                 <div className="home">
                     <h1>Welcome</h1>
                     <button><Link to="/login">Login</Link></button>
-                    <button ><Link to="/signup">Signup</Link></button>
+                    <button ><Link to="/signin">Signup</Link></button>
                 </div>
             </div>
         </>

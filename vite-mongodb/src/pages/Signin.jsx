@@ -1,4 +1,5 @@
 import React, { useState, useRef } from 'react'
+import { Link } from 'react-router-dom';
 
 function Signin() {
     const [formData, setFormData] = useState({
@@ -64,6 +65,7 @@ function Signin() {
                     <input type="text" placeholder='Gender' ref={genRef} name="gen" />
                     <input type="text" placeholder='age' ref={ageRef} name="agee" />
                     <input type="text" placeholder='phone Number' ref={phoneRef} name="Phnumber" />
+                    <p>Already have an account? <Link to="/login">Login</Link></p>
                     <button onClick={handleSubmit}>Submit</button>
                 </div>
             </div>
